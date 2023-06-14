@@ -1,7 +1,7 @@
-package com.smalaca.cart.adapter.packageservice.commoditycatalogue;
+package com.smalaca.offer.adapter.commoditycatalogue;
 
-import com.smalaca.cart.command.domain.offer.CommodityCatalogueService;
-import com.smalaca.cart.command.domain.offer.Price;
+import com.smalaca.offer.command.domain.offer.CommodityCatalogueService;
+import com.smalaca.offer.command.domain.offer.Price;
 import com.smalaca.commoditycatalogue.query.commodity.CommodityQuery;
 
 import java.util.UUID;

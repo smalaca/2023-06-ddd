@@ -1,6 +1,6 @@
 package com.smalaca.offer.adapter.rest.offer;
 
-import com.smalaca.offer.command.application.OfferApplicationService;
+import com.smalaca.offer.command.application.offer.OfferApplicationService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;

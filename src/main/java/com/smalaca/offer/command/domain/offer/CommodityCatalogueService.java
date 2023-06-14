@@ -1,4 +1,4 @@
-package com.smalaca.cart.command.domain.offer;
+package com.smalaca.offer.command.domain.offer;
 
 import java.util.UUID;
 

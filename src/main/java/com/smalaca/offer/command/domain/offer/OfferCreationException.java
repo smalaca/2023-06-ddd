@@ -1,4 +1,4 @@
-package com.smalaca.offer.domain.offer;
+package com.smalaca.offer.command.domain.offer;
 
 public class OfferCreationException extends RuntimeException {
 }

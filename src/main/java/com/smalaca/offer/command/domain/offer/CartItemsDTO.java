@@ -1,4 +1,4 @@
-package com.smalaca.offer.domain.offer;
+package com.smalaca.offer.command.domain.offer;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
