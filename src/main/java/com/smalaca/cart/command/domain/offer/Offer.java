@@ -1,12 +1,17 @@
 package com.smalaca.cart.command.domain.offer;
 
-import java.util.UUID;
+import java.util.List;
 
 public class Offer {
-    private CommodityCatalogueService commodityCatalogueService;
+    private final Price totalPrice;
+    private final List<SelectedItem> selectedItems;
 
-    public void foo() {
-        UUID commodityId = null;
-        Price price = commodityCatalogueService.findPriceFor(commodityId);
+    private Offer(Price totalPrice, List<SelectedItem> selectedItems) {
+        this.totalPrice = totalPrice;
+        this.selectedItems = selectedItems;
+    }
+
+    public static Offer of(Price totalPrice, List<SelectedItem> selectedItems) {
+        return new Offer(totalPrice, selectedItems);
     }
 }

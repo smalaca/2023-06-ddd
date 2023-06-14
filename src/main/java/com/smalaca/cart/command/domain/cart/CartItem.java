@@ -23,4 +23,12 @@ class CartItem {
     void increase(int quantity) {
         this.quantity += quantity;
     }
+
+    public UUID getCommodityId() {
+        return commodityId;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
 }
